@@ -447,19 +447,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\salomon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Music\\hireAfrica-backend\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\salomon\\hireAfrica-backend\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\HP\\Music\\hireAfrica-backend\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Music\\hireAfrica-backend\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\salomon\\hireAfrica-backend\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\salomon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\salomon\\hireAfrica-backend\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\salomon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
