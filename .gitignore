@@ -1,9 +1,14 @@
-﻿.vs
+﻿# Ignore Visual Studio, build artifacts, and NuGet files
+.vs/
 bin/
 obj/
 **/Debug/
+**/Release/
+*.dll
+*.pdb
+*.exe
+*.GeneratedMSBuildEditorConfig.editorconfig
 *.csproj.nuget.g.props
 *.csproj.nuget.g.targets
 *.csproj.nuget.dgspec.json
 *.nuget.cache
-*.json
