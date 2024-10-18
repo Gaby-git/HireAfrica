@@ -1,1 +1,9 @@
 ﻿.vs
+bin/
+obj/
+**/Debug/
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.csproj.nuget.dgspec.json
+*.nuget.cache
+*.json
