@@ -1,4 +1,6 @@
-﻿namespace Domain.Model
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Model
 {
     public class UserModel
     {
@@ -26,14 +28,10 @@
 
         public List<SkillModel> Skills { get; set; } = new List<SkillModel>();
 
-        public enum PreferredJobType
-        {
-            Fulltime,
-            PartTime,
-            Contract,
-            Remote
-        }
-
         public string LinkedInProfile { get; set; } = string.Empty;
+
+        [Url]
+        public string PreferredJobType {  get; set; } = string.Empty;
+
     }
 }
