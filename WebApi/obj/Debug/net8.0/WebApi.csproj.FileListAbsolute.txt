@@ -96,3 +96,9 @@ C:\Users\salomon\hireAfrica-backend\WebApi\obj\Debug\net8.0\scopedcss\bundle\Web
 C:\Users\salomon\hireAfrica-backend\WebApi\obj\Debug\net8.0\WebApi.csproj.Up2Date
 C:\Users\salomon\hireAfrica-backend\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\salomon\hireAfrica-backend\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Domain.dll
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Domain.pdb
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Application.dll
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Infrastructure.SqlServer.dll
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Application.pdb
+C:\Users\salomon\hireAfrica-backend\WebApi\bin\Debug\net8.0\Infrastructure.SqlServer.pdb
