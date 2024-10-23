@@ -4,6 +4,7 @@ using Domain.Stores;
 using Infrastructure.SqlServer.Stores;
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Infrastructure.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
