@@ -1,6 +1,6 @@
 ﻿
 
-namespace Infrastructure.Entities
+namespace Infrastructure.SqlServer.Entities
 {
     public class Portfolio
     {

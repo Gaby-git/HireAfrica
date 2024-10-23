@@ -1,7 +1,7 @@
 ﻿
 using static System.Net.Mime.MediaTypeNames;
 
-namespace Infrastructure.Entities
+namespace Infrastructure.SqlServer.Entities
 {
     public class Company
     {

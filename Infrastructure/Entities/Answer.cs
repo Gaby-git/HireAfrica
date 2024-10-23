@@ -1,5 +1,4 @@
-﻿
-namespace Infrastructure.Entities
+﻿namespace Infrastructure.SqlServer.Entities
 {
     public class Answer
     {
@@ -9,7 +8,7 @@ namespace Infrastructure.Entities
         public string AnswerText { get; set; }
         public bool IsCorrect { get; set; }
 
-      
+
         public Question Question { get; set; }
         public User User { get; set; }
     }

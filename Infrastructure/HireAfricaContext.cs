@@ -1,7 +1,6 @@
-﻿
-using Infrastructure.Entities;
+﻿using Infrastructure.SqlServer.Entities;
 using Microsoft.EntityFrameworkCore;
-namespace Infrastructure
+namespace Infrastructure.SqlServer
 {
     public class HireAfricaContext : DbContext
     {
