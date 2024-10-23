@@ -2,6 +2,8 @@ using Application.Services;
 using Domain.Services;
 using Domain.Stores;
 using Infrastructure.SqlServer.Stores;
+using Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserStore, UserStore>();
 builder.Services.AddScoped<IUserService, UserService>();
 
+builder.Services.AddDbContext<HireAfricaContext>(options =>
+              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,5 +33,4 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();
