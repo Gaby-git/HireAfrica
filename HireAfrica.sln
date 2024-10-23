@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CECF7A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{796BE88C-2E8F-4BFD-888E-45A7F809EBDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{583B4B27-19D8-4E92-A045-8C5306AAF7F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{583B4B27-19D8-4E92-A045-8C5306AAF7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{880925DF-E795-4CDE-8B99-D12B6CD91AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{880925DF-E795-4CDE-8B99-D12B6CD91AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{031480AF-4254-4FD9-B1DC-90BAEF767871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.SqlServer", "Infrastructure\Infrastructure.SqlServer.csproj", "{031480AF-4254-4FD9-B1DC-90BAEF767871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{2799D753-11B8-4575-9DC1-2D4899478264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{2799D753-11B8-4575-9DC1-2D4899478264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
