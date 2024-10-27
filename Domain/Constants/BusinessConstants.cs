@@ -9,4 +9,17 @@ public static class BusinessConstants
         Contract,
         Remote
     }
+    public enum EmploymentType
+    {
+        FullTime,
+        PartTime,
+        Contract
+    }
+
+    public enum ExperienceLevel
+    {
+        Entry,
+        Mid,
+        Senior
+    }
 }
