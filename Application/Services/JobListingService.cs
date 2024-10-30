@@ -21,7 +21,7 @@ public class JobListingService
         return default!;
     }
 
-    public JobListingModel UpdateJob(JobListingModel jobListinigModel)
+    public JobListingModel UpdateJob(int jobId, JobListingModel jobListinigModel)
     {
         return default!;
     }
