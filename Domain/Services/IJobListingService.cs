@@ -4,13 +4,13 @@ using Domain.Models;
 
 public interface IJobListingService
 {
-    public JobListingModel AddSkill(JobListingModel jobListingModel);
+    public JobListingModel AddJob(JobListingModel jobListinigModel);
 
-    public IEnumerable<JobListingModel> GetSkills();
+    public IEnumerable<JobListingModel> GetJobList();
 
-    public JobListingModel GetSkill(int JobId);
+    public JobListingModel GetJob(int JobId);
 
-    public JobListingModel UpdateJob( JobListingModel jobListingModel);
+    public JobListingModel UpdateJob(int jobId, JobListingModel jobListingModel);
 
-    public JobListingModel DeleteSkill(JobListingModel jobListingModel);
+    public JobListingModel DeleteJob(int JobId);
 }
