@@ -1,5 +1,6 @@
 ﻿namespace Domain.Models;
 
+using Domain.JobApplicationModels;
 using static Domain.Constants.BusinessConstants;
 
 public class JobListingModel
@@ -14,5 +15,7 @@ public class JobListingModel
     public List<string> RequiredSkills { get; set; } = default!;
     public string EducationLevel { get; set; } = string.Empty;
     public ExperienceLevel Experience { get; set; } = new ExperienceLevel();
+    public JobApplicationModel Application { get; set; } = new JobApplicationModel();
+
 }
 
